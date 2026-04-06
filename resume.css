@@ -1,0 +1,127 @@
+body{
+    font-family: 'pretendard', sans-serif;
+    line-height: 150%;
+    padding: 12px 24px;
+}
+
+.back-btn {
+  cursor: pointer;   /* 🔥 버튼 느낌 */
+}
+
+.content-wrap {
+    padding: 0 400px; /* 좌우만 패딩 */
+}
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%
+}
+.left-box,
+.right-box
+{
+    display: flex;
+    flex-direction: column;
+}
+p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #222;
+    line-height: 150%;
+    margin: 0;
+}
+.box p{
+    font-weight: 500;
+}
+h1{
+    font-weight: 500;
+    font-size: 60px;
+    color: #222;
+    margin: 0;
+    line-height: 1;
+}
+.contact-line{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.contact-line svg{
+    width: 16px;
+    height: 16px;
+    position:relative;
+    bottom: 1px;
+}
+.right-box p{
+    text-align: right;
+    line-height: 150%;
+    font-size: 32px;
+    font-weight: 500;
+    margin: 0;
+}
+.name {
+    font-size: 120px;      /* 크게 */
+    font-weight: 500;
+    margin-top: 0px; /* 아래와 살짝 여백 */ 
+    color: #c5c5c5;
+    letter-spacing: -4px;  /* 글자 간격 좁히기 */
+    line-height: 1;    /* 줄 간격 조절 */
+}
+.section {
+    margin-top: 40px;
+}
+.section-title {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0 0 16px 0;
+}
+.Education-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 8px 0 12px;
+    border-bottom: 1px solid #ddd;   /* 줄 */
+}
+.Experience-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 8px 0 12px;
+    border-bottom: 1px solid #ddd;   /* 줄 */
+}
+/* 왼쪽 텍스트 */
+.job-title {
+    font-weight: 500;
+    margin: 0 0 2px 0;
+}
+
+.job-desc {
+    font-size: 14px;
+    color: #555;
+}
+
+/* 오른쪽 연도 */
+.experience-right {
+    min-width: 90px;          /* 오른쪽 폭 유지용 (원하면 조절) */
+    text-align: right;
+}
+
+.job-year {
+    font-size: 14px;
+}
+
+.Profile-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+    margin-top: 16px;
+}
+.Profile-left {
+    flex: 1;    /* 왼쪽 텍스트가 가능한 공간을 다 차지하도록 */
+}
+
+.profile-picture {
+    width: 300px;    /* 원하는 너비 */
+    height: auto;    /* 비율 유지 */
+}
