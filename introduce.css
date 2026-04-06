@@ -1,0 +1,71 @@
+body{
+    font-family: 'pretendard', sans-serif;
+    line-height: 150%;
+    padding: 12px 24px;
+    flex-direction: column;
+}
+
+.back-btn {
+  cursor: pointer;   /* 🔥 버튼 느낌 */
+}
+
+.content-wrap {
+    padding: 0 400px; /* 좌우만 패딩 */
+}
+
+h1{
+    font-weight: 500;
+    font-size: 60px;
+    color: #222;
+    margin: 0;
+    line-height: 1;
+}
+
+h3{
+    font-weight: 600;
+    font-size: 20px;
+    color: #222;
+    margin: 0;
+    line-height: 1;
+    margin-top: 20px;
+}
+
+.top-line {
+    border: none;
+  border-top: 2px solid #cfcfcf; /* 굵기/색 */
+    margin: 20px 0;  
+        /* 위아래 여백 */
+}
+
+.name {
+    font-size: 60px;      /* 크게 */
+    font-weight: 500;
+    line-height: 1.4;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.name h2 {
+    margin: 0;
+}
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 24px;
+}
+.profile-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.chip {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #eee;
+    border-radius: 999px;  /* 칩은 무조건 pill 모양 */
+    font-size: 16px;
+    color: #333;
+    margin-top: 20px;
+}
