@@ -10,7 +10,11 @@ body{
 }
 
 .content-wrap {
-    padding: 0 400px; /* 좌우만 패딩 */
+    padding: 0 200px; /* 좌우만 패딩 */
+}
+
+body {
+  padding-bottom: 120px; /* 원하는 만큼 여백 */
 }
 
 h1{
